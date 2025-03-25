@@ -1,7 +1,5 @@
 "use client";
-import Image from "next/image";
-import Experience from "./Experience/page";
-import Link from "next/link";
+import Experience from "./components/Experience";
 
 export default function Home() {
   return (
