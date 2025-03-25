@@ -17,6 +17,6 @@ export default {
     require('daisyui'),
   ],
   daisyui: {
-    themes: ['light', 'dark', 'cupcake', 'forest', 'emerald', 'dim'], // Enable the themes you want
+    themes: ['light', 'dark', 'cupcake', 'emerald', 'dim', 'aqua', 'synthwave'] // Enable the themes you want
   },
 };
