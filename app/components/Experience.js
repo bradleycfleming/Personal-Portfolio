@@ -22,7 +22,15 @@ const Experience = (props) => {
       </div>
       <div className="timeline-end">
         <h1 className="font-bold mb-2">
-          {props.title} | <Link className="hover:text-primary transition" href={props.link}  target="_blank">{props.company}</Link>
+          {props.title} |
+          <Link
+            className="hover:text-primary transition"
+            href={props.link}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            {props.company}
+          </Link>
         </h1>
         <p className="mb-6">{props.description}</p>
       </div>
